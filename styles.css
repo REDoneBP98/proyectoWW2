@@ -1,0 +1,180 @@
+body{
+    background-color: darkgrey;
+}
+
+#nav_interno{
+    margin-left: 650px;
+    margin-right: 650px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: bisque;
+}
+
+#cabezaPrin{
+    text-align: center;
+    font-family: Impact;
+}
+
+#indice{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-style: solid;
+}
+
+th{
+    border-style: solid;
+    border-width: 1px;
+}
+
+td{
+    border-style: solid;
+    border-width: 1px;
+}
+
+#tit_antec{
+    text-align: center;
+    border-bottom: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: brown;
+}
+
+#cuerpoLinea_ant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagenes{
+    border-width: 2px;
+    border-style: solid;
+}
+
+.cuerpo_antec{
+    width: 65%;
+    display: inline-block;
+}
+
+#lat_antec{
+    width: 30%;
+    display: inline-block;
+    
+}
+
+.pie_pag{
+    border: double;
+    border-width: 3px;
+    border-color:chocolate;
+    background-color: bisque;
+}
+
+/*Los de la segunda pagina: Entreguerras*/
+
+#cuerpolinea_entreg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#list_img_entreg{
+    background-color: chocolate;
+}
+
+.cuadros{
+    background-color: rgb(251, 248, 245);
+    border-width: 3px;
+    border: solid;
+    width: 30%;
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+}
+
+.cuadros img {
+    width: 100%;
+    height: 250px;
+}
+
+#enl_ant{
+    width: 90%;
+    display: inline-block;
+}
+
+#enl_seg{
+    width: 10%;
+    display: inline-block;
+}
+
+/*Tercera pagina: Guerra total*/
+
+#linea_bandos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bandos_ww2{
+    width: 70%;
+    display: inline-block;
+}
+
+#lat_bandos_ww2{
+    width: 30%;
+    display: inline-block;
+}
+
+/*Cuarta pagina: final y consecuencias*/
+
+#linea_fin{
+    display: flex;
+    justify-content: space-between;
+}
+
+#cuadro_fin{
+    width: 90%;
+    display: inline-block;
+}
+
+#lin_imag_fin{
+    width: 10%;
+    display: inline-block;
+}
+
+#lin_pasadores{
+    display: flex;
+    border-bottom: dotted;
+}
+
+#ant_enl{
+    width: 10%;
+    display: inline-block;
+}
+
+#princ_enl{
+    width: 80%;
+    display: inline-block;
+}
+
+#sig_enl{
+    width: 10%;
+    display: inline-block;
+}
+
+
+/*Formulario: */
+
+#carc_form1{
+    background-color: rgb(236, 220, 4);
+    border-style: solid;
+    border-radius: 20px;
+}
+
+#btn_env{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

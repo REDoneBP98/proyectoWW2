@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripcion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+    <header>
+        <h1 id="cabezaPrin">Formulario de suscripcion</h1>
+        <Table id="indice">
+        <tr>
+            <TH class="titulosIndice" >Antecedentes</TH> <TH  >Epoca de entreguerras (1918-1939)</TH> <TH class="titulosIndice" >El conflicto: Guerra total(1939-1945)</TH> <TH class="titulosIndice" >final y consecuencias (1945-Hoy)</TH> <TH class="titulosIndice" >Formulario: ¿Quieres mas?</TH>
+        </tr>
+        <tr>
+            <td><a href="principal.html"><img src="Imagenes/WW1.jpg" alt="Esto solo aparece si la imagen no va"></a></td> <td><a href="segunda.html" class="titulosIndice"><img src="Imagenes/Entreguerrras.jpg" alt="Esto solo aparece si la imagen no va"></a></td> 
+            <td><a href="tercera.html"><img src="Imagenes/WW21942.jpg" alt="Esto solo aparece si la imagen no va"></a></td> <td><a href="cuarta.html"><img src="Imagenes/finalWW2.jpg" alt="Esto solo aparece si la imagen no va"></a></td> 
+            <td><img src="Imagenes/quizWW2.jpg" alt="Esto solo aparece si la imagen no va"></td>
+        </tr>
+        </Table>
+    </header>
+    <form action="server.php" method="post" id="carc_form1">
+        <h3 id="Tit_form">Si te interesa tener una suscripcion y recibir revistas mensuales. ¡Podemos hacerlo! Rellena este formulario con los datos pertinentes y selecciona el nivel de suscripcion que gustes.</h3>
+
+        <div>
+        <br><br>
+
+        <div class="prim_lin_f">
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="Nombre" id="Nombre">
+        </div>
+        
+        <br>
+
+        <div class="prim_lin_f">
+            <label for="Apellido1">Primer apellido:</label>
+            <input type="text" name="Apellido1" id="Apellido1">
+        </div>
+        
+        <br>
+        
+        <div class="prim_lin_f">    
+            <label for="Apellido2">Segundo apellido:</label>
+            <input type="text" name="Apellido2" id="Apellido2">
+        </div>
+        
+        <br>
+        
+        <div class="prim_lin_f">    
+            <label for="Direccion">Direccion:</label>
+            <input type="text" name="Direccion" id="Direccion">
+        </div>
+
+        <br><br>
+
+        <div>
+        <label for="Sexo">Sexo:</label>
+            <select name="Sexo" id="Sexo">
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Edad">Edad:</label>
+            <input type="number" name="Edad" id="Edad">
+        </div>
+
+        <br>
+
+        <div>    
+            <label for="tlf">Numero de telefono:</label>
+            <input type="password" name="tlf" id="tlf">
+        </div>
+
+        <br><br>
+
+        <div>
+            <label >Ritmo al que se reciven las revistas:</label><br>
+            
+            <label for="semanal">Semanal</label>
+            <input type="radio" name="ritmo" id="semanal" value="semanal"><br>
+
+            <label for="mensual">mensual</label>
+            <input type="radio" name="ritmo" id="mensual" value="mensual"><br>
+
+            <label for="trimestral">trimestral</label>
+            <input type="radio" name="ritmo" id="trimestral" value="trimestral"><br>
+        </div>
+        <br><br>
+        
+        <h3>Antes de confirmar los envios, debes crear una cuenta en la que reciviras las revistas digitales y estar registrado:</h3>
+        <br>
+        
+        <div>    
+            <label for="Usuario">Nombre del usuario:</label>
+            <input type="text" name="Usuario" id="Usuario">
+        </div>
+
+        <br>
+
+        <div>    
+            <label for="correo">Correo electronico asociado:</label>
+            <input type="text" name="correo" id="correo">
+        </div>
+        
+        <br>
+
+        <div>    
+            <label for="Contraseña1">Introduzca una contraseña:</label>
+            <input type="password" name="Contraseña1" id="Contraseña1">
+        </div>
+
+        <br>
+
+        <div>    
+            <label for="Contraseña2">Confirme su contraseña:</label>
+            <input type="password" name="Contraseña2" id="Contraseña2">
+        </div>
+        <br>
+        <div id="btn_env">
+        <input type="submit" value="Enviar">
+        </div>
+        <br>
+    </div>
+    </form>
+
+    <div id="lin_pasadores">
+        <a href="cuarta.html" id="ant_enl">--Pagina anterior--</a>
+        <br>
+        <a href="principal.html" id="princ_enl">--Pagina principal--</a>
+        <br>
+    </div>
+    </main>
+</body>
+</html>
